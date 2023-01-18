@@ -1,7 +1,7 @@
 let pinsKnocked = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10];
 
 function scoreCalculator(pinsKnocked){
-    if(pinsKnocked.length>20)throw new Error('Invalid Type');
+    if(pinsKnocked.length>21)throw new Error('Invalid Type');
     else{
     let score=0;
      for(let i=0;i<20;i++)
