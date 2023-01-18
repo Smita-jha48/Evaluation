@@ -9,7 +9,7 @@ describe('Score Calculator for bowling', () => {
     });
     it('should return type error when number of frames are greater than 10', () => {
       expect(() => {
-        scoreCalculator([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10,10]).toThrow(TypeError('Invalid Type'));
+        scoreCalculator([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10,10,11]).toThrow(TypeError('Invalid Type'));
       });
     });
   });
